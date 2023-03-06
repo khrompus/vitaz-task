@@ -1,0 +1,96 @@
+.profile {
+    max-width: 880px;
+    margin: 36px auto 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__name {
+    display: flex;
+    width: 100%;
+}
+
+.profile__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    margin: 0 18px 16px 0;
+    max-width: 450px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.profile__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile__button-edit {
+    background: url("../../images/Edit.svg");
+    width: 24px;
+    height: 24px;
+    border: none;
+    padding: 0;
+    transition: linear .3s;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 6px;
+}
+
+.profile__button-edit:hover {
+    opacity: 0.6;
+}
+
+.profile__button-add {
+    background: url("../../images/add.svg");
+    width: 181px;
+    height: 50px;
+    transition: linear .3s;
+    cursor: pointer;
+    align-self: center;
+    outline: none;
+    border: white 1px solid;
+}
+
+.profile__button-add:hover {
+    opacity: 0.6;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 282px));
+    grid-column-gap: 17px;
+    grid-row-gap: 20px;
+    margin: 50px auto;
+    max-width: 880px;
+    justify-content: center;
+}
+
+
+.profile__my-todo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.profile__button-todo {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 48px;
+    cursor: pointer;
+    transition: linear .1s;
+    border-radius: 8px;
+}
+.profile__button-todo:hover {
+    opacity: .6;
+}
