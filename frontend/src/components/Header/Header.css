@@ -1,0 +1,32 @@
+.header__title {
+    margin: 0 0 41px 0;
+    color: white;
+}
+
+.header {
+    border-bottom: 1px solid #545454;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 45px;
+    margin: 0 auto;
+    max-width: 880px;
+}
+
+.header__link {
+    text-decoration: none;
+    margin: 0;
+
+}
+
+.header__authorize {
+    text-decoration: none;
+    color: #fff;
+}
+.header__authorize-subtitle {
+    visibility: visible;
+}
+
+.header__authorize-subtitle_hidden {
+    visibility: hidden;
+}
